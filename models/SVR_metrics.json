@@ -1,0 +1,10 @@
+{
+    "MSE": 2838614.2837814973,
+    "RMSE": 1684.8187688239639,
+    "R2": 0.5009103163909805,
+    "Best_Parameters": {
+        "regressor__kernel": "linear",
+        "regressor__epsilon": 0.1,
+        "regressor__C": 100
+    }
+}

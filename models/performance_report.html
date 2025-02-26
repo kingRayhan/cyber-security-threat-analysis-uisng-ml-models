@@ -1,0 +1,98 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <style>
+                .summary-table {
+                    border-collapse: collapse;
+                    width: 100%;
+                    margin: 20px 0;
+                    font-family: Arial, sans-serif;
+                }
+                .summary-table th, .summary-table td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+                }
+                .summary-table th {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+                .summary-table tr:nth-child(even) {
+                    background-color: #f2f2f2;
+                }
+                .summary-table tr:hover {
+                    background-color: #ddd;
+                }
+                .header {
+                    color: #333;
+                    margin: 20px 0;
+                    font-family: Arial, sans-serif;
+                }
+            </style>
+        </head>
+        <body>
+            <h2 class="header">Model Performance Summary</h2>
+            <table border="1" class="dataframe summary-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>MSE</th>
+      <th>RMSE</th>
+      <th>R2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>RandomForest</th>
+      <td>1189747.932</td>
+      <td>1090.756</td>
+      <td>0.791</td>
+    </tr>
+    <tr>
+      <th>GradientBoosting</th>
+      <td>1286158.777</td>
+      <td>1134.089</td>
+      <td>0.774</td>
+    </tr>
+    <tr>
+      <th>LinearRegression</th>
+      <td>1740683.715</td>
+      <td>1319.350</td>
+      <td>0.694</td>
+    </tr>
+    <tr>
+      <th>DecisionTree</th>
+      <td>1301659.325</td>
+      <td>1140.903</td>
+      <td>0.771</td>
+    </tr>
+    <tr>
+      <th>SVR</th>
+      <td>2838614.284</td>
+      <td>1684.819</td>
+      <td>0.501</td>
+    </tr>
+    <tr>
+      <th>KNN</th>
+      <td>2088002.061</td>
+      <td>1444.992</td>
+      <td>0.633</td>
+    </tr>
+    <tr>
+      <th>AdaBoost</th>
+      <td>1272802.727</td>
+      <td>1128.186</td>
+      <td>0.776</td>
+    </tr>
+    <tr>
+      <th>ExtraTrees</th>
+      <td>1247268.599</td>
+      <td>1116.812</td>
+      <td>0.781</td>
+    </tr>
+  </tbody>
+</table>
+        </body>
+        </html>
+        

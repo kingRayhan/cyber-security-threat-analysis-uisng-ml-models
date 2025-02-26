@@ -1,0 +1,10 @@
+{
+    "MSE": 1189747.9321523616,
+    "RMSE": 1090.7556702361724,
+    "R2": 0.7908166240038146,
+    "Best_Parameters": {
+        "n_estimators": 200,
+        "min_samples_split": 10,
+        "max_depth": 20
+    }
+}

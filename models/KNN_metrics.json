@@ -1,0 +1,10 @@
+{
+    "MSE": 2088002.0613966163,
+    "RMSE": 1444.9920627451959,
+    "R2": 0.6328841526122491,
+    "Best_Parameters": {
+        "regressor__weights": "uniform",
+        "regressor__n_neighbors": 9,
+        "regressor__metric": "manhattan"
+    }
+}
